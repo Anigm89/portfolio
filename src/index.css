@@ -32,9 +32,11 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3vw;
   line-height: 1.1;
 }
+h2{font-size: 2.3vw;}
+
 li{list-style: none;}
 nav {
   display: flex;
@@ -169,32 +171,33 @@ button:focus-visible {
   width: 90%;
   padding: 5%;
   background-color: #646cff;
+  color: #fff;
 }
-
+.seccion{
+  width: 90%;
+  margin: auto;
+}
 .listado-trabajos{
     width: 90vw;
-    margin: 0px;
+    margin: 3% 0;
     padding: 0;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center ;
-    margin-bottom: 5%;
 }
 .listado-trabajos li {
   float: left;
-  width: 0px;
+  width: 29vw;
   margin-right: 0px;
-  height: 0px;
+  height: 19vw;
   overflow: hidden;
   background-size: cover;
   background-position: center top;
   border-radius: 15px;
+  box-shadow: 2px 2px 4px #ccc;
 }
-.listado-trabajos li.visible {
-  width: 29vw;
-  height: 19vw;
-}
+
 .datacontainer{
   opacity: 1; 
    width:100%;
@@ -223,18 +226,18 @@ button:focus-visible {
   margin-bottom: 10px;
 
 }
-.description{opacity: 0; display: none;}
+.description{opacity: 0; display: none; width: 85%; margin: auto; height: 11vh;}
 .ver{
   position: relative;
   top: 15vh;
 }
 .listado-trabajos li .datacontainer:hover h3 {
   position: relative;
-  top: 5vh;
+  top: 8vh;
 }
 .listado-trabajos li .datacontainer:hover .ver {
   position: relative;
-  top: 20vh;
+  top: 13vh;
 }
 .listado-trabajos li .datacontainer:hover .description {
   opacity: 1;
@@ -247,5 +250,62 @@ button:focus-visible {
 
 
 .proyecto1{
-  background-image: linear-gradient(to bottom, rgba(16, 24, 32, 0) 3%, #101820 98%), url(../assets/img/p1.png);
+  background-image: linear-gradient(to bottom, rgba(16, 24, 32, 0) 3%, #101820 98%), url(../assets/img/p1.2.png);
 }
+.proyecto2{
+  background-image: linear-gradient(to bottom, rgba(16, 24, 32, 0) 3%, #101820 98%), url(../assets/img/tienda.png);
+}
+.proyecto3{
+  background-image: linear-gradient(to bottom, rgba(16, 24, 32, 0) 3%, #101820 98%), url(../assets/img/appbook.png);
+}
+
+.enlaces{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.btn{
+    border: 2px solid #646cff;
+    border-radius: 100%;
+    margin: 0 .2rem;
+}
+.ln{
+ background-image: url('../assets/img/linkedin.png');
+ background-size: 60%;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 47px;
+ width: 47px;
+}
+
+.mail{
+  background-image: url('../assets/img/sobre.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47px;
+  width: 47px;
+ }
+ 
+.btn:hover{
+  background-color: #535bf2;
+}
+.btn:hover .ln{
+  background-image: url('../assets/img/linkedinb.png');
+}
+.btn:hover .mail{
+  background-image: url('../assets/img/sobreb.png');
+}
+footer{
+  background-color: #535bf2;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+footer img{width: 30px; margin-left: 15px;}
