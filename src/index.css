@@ -24,11 +24,7 @@ a:hover {
 
 body {
   margin: 0;
- /* display: flex;
-  justify-content: center;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;*/
+ 
 }
 
 h1 {
@@ -118,21 +114,7 @@ button:focus-visible {
   100%{transform: translateX(35px);}
 
 }
-/*
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-*/
 .App {
   display: flex;
   flex-direction: column;
@@ -219,25 +201,25 @@ button:focus-visible {
   width: 100%;
   margin-top: 0;
   position: relative;
-  top: 15vh;
+  top: 36%;
   transition: 0.8s;
   color: #fff;
   text-shadow: 1px 1px 2px #625b5b;
   margin-bottom: 10px;
 
 }
-.description{opacity: 0; display: none; width: 85%; margin: auto; height: 11vh;}
+.description{opacity: 0; display: none; width: 85%; margin: auto; height: 27%;}
 .ver{
   position: relative;
-  top: 15vh;
+  top: 40%;
 }
 .listado-trabajos li .datacontainer:hover h3 {
   position: relative;
-  top: 8vh;
+  top: 15%;
 }
-.listado-trabajos li .datacontainer:hover .ver {
+.datacontainer:hover .ver {
   position: relative;
-  top: 13vh;
+  top:25%;
 }
 .listado-trabajos li .datacontainer:hover .description {
   opacity: 1;
@@ -245,7 +227,8 @@ button:focus-visible {
   transition: opacity 0.8s;
   color:#fff ;
   position: relative;
-  top: 10vh;
+  top: 22%;
+  font-size: 1vw;
 }
 
 
@@ -345,4 +328,30 @@ footer img{width: 30px; margin-left: 15px;}
 }
 .image-gallery button{
   opacity: 0.5;
+}
+
+@media screen and (max-width:780px){
+  .listado-trabajos{
+    flex-wrap: wrap;
+  }
+  .listado-trabajos li{
+    width: 90vw;
+    height: 50vw;
+    margin-bottom: 5vw;
+  }
+  .listado-trabajos li .datacontainer h3 {
+    font-size: 20px;
+  }
+  .listado-trabajos li .datacontainer:hover .description{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .enlaces{margin-bottom: 10%;}
+  footer{ font-size: 12px;}
+  .proyectos{width: 96%;}
 }
