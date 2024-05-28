@@ -136,9 +136,9 @@ button:focus-visible {
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
+  min-height: 100vh;
 }
 .light {
   background-color: white;
@@ -309,3 +309,40 @@ footer{
   color: #fff;
 }
 footer img{width: 30px; margin-left: 15px;}
+
+.proyectos{
+  width:60%;
+}
+.proyectos .descripcion{
+  width: 80%;
+  margin: 3% auto;
+  text-align: justify;
+}
+
+.volver{margin:3% 0; text-align: left; width: 60%;}
+
+.proyectos .descripcion li{
+  list-style: circle;
+}
+/*  galeria */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.image-item {
+  cursor: pointer;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image-gallery button{
+  opacity: 0.5;
+}

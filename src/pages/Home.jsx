@@ -1,12 +1,10 @@
-import { useTheme } from '../themes/ThemeContext.jsx'
 import { Link } from 'react-router-dom';
 
 function Home(){
-      const { theme } = useTheme()
 
     return(
         <>
-        <section className={`App ${theme}`}>
+        <section>
             <h1>Hola, soy Ani </h1>
             <h3>Full Stack developer</h3>
             <img src="../../assets/img/sinfondo.png" alt="img" className='img1' />
