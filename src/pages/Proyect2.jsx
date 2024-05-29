@@ -24,20 +24,19 @@ function Proyect2(){
                 </p>
                 <b>Características Principales:</b>
                 <ul>
-                    <li>Autenticación: Implementada con Firebase Auth, permitiendo que solo los administradores registrados puedan realizar cambios en los productos.</li>
-                    <li>Operaciones CRUD: Los administradores pueden agregar, editar y eliminar productos.</li>
-                    <li>API REST: Proporciona endpoints para gestionar productos, incluyendo detalles, categorías, etc.</li>
-                    <li>Arquitectura MVC: El proyecto sigue el patrón de arquitectura Modelo-Vista-Controlador para organizar el código de manera eficiente.</li>
-                    <li>Microservicios: Aunque el proyecto principal no está explícitamente dividido en microservicios ya que está hecho íntegramente desde backend, podría ser extendido a una arquitectura de microservicios en el futuro.</li>
-                    <li>Documentación: Incluye documentación con Swagger para la API.</li>
-                    <li>Test: Incluye test realizados con Jest y Supertest</li>
+                    <li><b>Autenticación:</b> Implementada con Firebase Auth, permitiendo que solo los administradores registrados puedan realizar cambios en los productos.</li>
+                    <li><b>Operaciones CRUD:</b> Los administradores pueden agregar, editar y eliminar productos.</li>
+                    <li><b>API REST:</b> Proporciona endpoints para gestionar productos, incluyendo detalles, categorías, etc.</li>
+                    <li><b>Arquitectura MVC:</b> El proyecto sigue el patrón de arquitectura Modelo-Vista-Controlador para organizar el código de manera eficiente.</li>
+                    <li><b>Documentación:</b> Incluye documentación con Swagger para la API.</li>
+                    <li><b>Test:</b> Incluye test realizados con Jest y Supertest</li>
                 </ul>
                 <b>Estructura del Proyecto:</b>
                 <ul>
-                    <li>Modelos: Definidos con Mongoose para la interacción con MongoDB.</li>
-                    <li>Controladores: Manejan la lógica de negocio y las respuestas a las solicitudes CRUD.</li>
-                    <li>Rutas: Definen los endpoints de la API y las funciones correspondientes en los controladores.</li>
-                    <li>Middlewares: Implementan la lógica de autenticación y autorización.</li>
+                    <li><b>Modelos:</b> Definidos con Mongoose para la interacción con MongoDB.</li>
+                    <li><b>Controladores:</b> Manejan la lógica de negocio y las respuestas a las solicitudes CRUD.</li>
+                    <li><b>Rutas:</b> Definen los endpoints de la API y las funciones correspondientes en los controladores.</li>
+                    <li><b>Middlewares:</b> Implementan la lógica de autenticación y autorización.</li>
                     
                 </ul>
                 
@@ -47,6 +46,12 @@ function Proyect2(){
            
         </section>
         <Link to='/' className="volver"> &#60; Atrás </Link>
+        <footer>
+            <p>Creado y desarrollado por Ani González Moreno</p>
+            <a href="https://github.com/Anigm89/" target='_blank'>
+                <img src="../../assets/img/github.png" alt="github" />
+            </a>
+        </footer>
         </>
     )
 }
