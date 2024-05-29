@@ -39,7 +39,8 @@ function Proyect3(){
                     <li><b>Middlewares:</b> Implementan la lógica de autenticación y autorización.</li>
                     <li><b>Arquitectura:</b> Utiliza el patrón Modelo-Vista-Controlador (MVC) para organizar el código de manera eficiente.</li>
                 </ul>
-
+                <br />
+                <i>Aún estoy desarrollando y mejorando esta app</i>
                 <a href="https://appbooks.netlify.app/"  target="_blank">Ir a la web </a>
             </div>
             <ImageGallery images={images} />
