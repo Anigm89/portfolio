@@ -7,7 +7,7 @@ function Home(){
         <section>
             <h1>Hola, soy Ani </h1>
             <h3>Full Stack developer</h3>
-            <img src="../../assets/img/sinfondo.png" alt="img" className='img1' />
+            <img src="sinfondo.png" alt="img" className='img1' />
             <div className='about'>
                 <p>Comencé como desarrolladora web utilizando PHP, trabajando tanto en el frontend como en el backend. En mis primeros años, he trabajado con HTML5, CSS, JavaScript y jQuery para crear interfaces de usuario responsivas y modernas, además he desarrollado algún proyecto con Bootstrap.
                     En el backend, he trabajado principalmente con PHP y JavaScript puro (vanilla JS), utilizando bases de datos relacionales como MySQL para gestionar la información de las aplicaciones.</p>
@@ -56,7 +56,7 @@ function Home(){
         <footer>
             <p>Creado y desarrollado por Ani González Moreno</p>
             <a href="https://github.com/Anigm89/" target='_blank'>
-                <img src="../../assets/img/github.png" alt="github" />
+                <img src="github.png" alt="github" />
             </a>
         </footer>
         </>

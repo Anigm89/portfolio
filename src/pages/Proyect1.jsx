@@ -4,11 +4,11 @@ import ImageGallery from "../components/ImageGallery";
 
 function Proyect1(){
     const images = [
-        { src: '../../assets/img/p1home.png', alt: 'Home' },
-        { src: '../../assets/img/p1reloj.png', alt: 'Reloj'},
-        { src: '../../assets/img/p1pass.png', alt: 'Contraseñas'},
-        { src: '../../assets/img/p1enlaces.png', alt: 'Enlaces'},
-        { src: '../../assets/img/p1tiempo.png', alt: 'Tiempo'}
+        { src: 'p1home.png', alt: 'Home' },
+        { src: 'p1reloj.png', alt: 'Reloj'},
+        { src: 'p1pass.png', alt: 'Contraseñas'},
+        { src: 'p1enlaces.png', alt: 'Enlaces'},
+        { src: 'p1tiempo.png', alt: 'Tiempo'}
     ]
 
     return(
