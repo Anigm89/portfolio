@@ -40,7 +40,7 @@ function Proyect1(){
         <footer>
             <p>Creado y desarrollado por Ani González Moreno</p>
             <a href="https://github.com/Anigm89/" target='_blank'>
-                <img src="../../assets/img/github.png" alt="github" />
+                <img src="github.png" alt="github" />
             </a>
         </footer>
         </>
