@@ -41,6 +41,7 @@ function Proyect3(){
                 </ul>
                 <br />
                 <i>Aún estoy desarrollando y mejorando esta app</i>
+                <br /><br />
                 <a href="https://appbooks.netlify.app/"  target="_blank">Ir a la web </a>
             </div>
             <ImageGallery images={images} />
