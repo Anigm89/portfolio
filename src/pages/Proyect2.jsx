@@ -4,14 +4,14 @@ import ImageGallery from "../components/ImageGallery";
 
 function Proyect2(){
     const images = [
-        { src: '../../assets/img/proyect2/home.png', alt: 'Home' },
-        { src: '../../assets/img/proyect2/todo.png', alt: 'Productos'},
-        { src: '../../assets/img/proyect2/categoria.png', alt: 'Categoría'},
-        { src: '../../assets/img/proyect2/detalle.png', alt: 'Detalle producto'},
-        { src: '../../assets/img/proyect2/login.png', alt: 'Login'},
-        { src: '../../assets/img/proyect2/detalleadmin.png', alt: 'Detalle producto de admin'},
-        { src: '../../assets/img/proyect2/crear.png', alt: 'Añadir producto'},
-        { src: '../../assets/img/proyect2/editar.png', alt: 'Editar producto'},
+        { src: 'proyect2/home.png', alt: 'Home' },
+        { src: 'proyect2/todo.png', alt: 'Productos'},
+        { src: 'proyect2/categoria.png', alt: 'Categoría'},
+        { src: 'proyect2/detalle.png', alt: 'Detalle producto'},
+        { src: 'proyect2/login.png', alt: 'Login'},
+        { src: 'proyect2/detalleadmin.png', alt: 'Detalle producto de admin'},
+        { src: 'proyect2/crear.png', alt: 'Añadir producto'},
+        { src: 'proyect2/editar.png', alt: 'Editar producto'},
     ]
 
     return(
@@ -49,7 +49,7 @@ function Proyect2(){
         <footer>
             <p>Creado y desarrollado por Ani González Moreno</p>
             <a href="https://github.com/Anigm89/" target='_blank'>
-                <img src="../../assets/img/github.png" alt="github" />
+                <img src="github.png" alt="github" />
             </a>
         </footer>
         </>

@@ -4,15 +4,15 @@ import ImageGallery from "../components/ImageGallery";
 
 function Proyect3(){
     const images = [
-        { src: '../../assets/img/proyect3/home.png', alt: 'Home' },
-        { src: '../../assets/img/proyect3/detalle.png', alt: 'Detalle'},
-        { src: '../../assets/img/proyect3/login.png', alt: 'Login'},
-        { src: '../../assets/img/proyect3/detalleUsu.png', alt: 'Detalle de usuario registrado'},
-        { src: '../../assets/img/proyect3/detalleadmin.png', alt: 'Detalle libro de admin'},
-        { src: '../../assets/img/proyect3/perfil.png', alt: 'Perfil usuario libros leidos'},
-        { src: '../../assets/img/proyect3/perfil2.png', alt: 'Perfil usuario libros pendientes'},
-        { src: '../../assets/img/proyect3/editar.png', alt: 'Editar libro'},
-        { src: '../../assets/img/proyect3/add.png', alt: 'Añadir un libro'},
+        { src: 'proyect3/home.png', alt: 'Home' },
+        { src: 'proyect3/detalle.png', alt: 'Detalle'},
+        { src: 'proyect3/login.png', alt: 'Login'},
+        { src: 'proyect3/detalleUsu.png', alt: 'Detalle de usuario registrado'},
+        { src: 'proyect3/detalleadmin.png', alt: 'Detalle libro de admin'},
+        { src: 'proyect3/perfil.png', alt: 'Perfil usuario libros leidos'},
+        { src: 'proyect3/perfil2.png', alt: 'Perfil usuario libros pendientes'},
+        { src: 'proyect3/editar.png', alt: 'Editar libro'},
+        { src: 'proyect3/add.png', alt: 'Añadir un libro'},
     ]
 
     return(
@@ -49,7 +49,7 @@ function Proyect3(){
         <footer>
             <p>Creado y desarrollado por Ani González Moreno</p>
             <a href="https://github.com/Anigm89/" target='_blank'>
-                <img src="../../assets/img/github.png" alt="github" />
+                <img src="github.png" alt="github" />
             </a>
         </footer>
         </>
