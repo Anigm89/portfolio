@@ -40,7 +40,7 @@ function Proyect2(){
                     
                 </ul>
                 
-                <a href="https://backend-project-break-production.up.railway.app/"  target="_blank">Ir a la web </a>
+                <a href="https://backend-project-break-k24v.onrender.com/"  target="_blank">Ir a la web </a>
             </div>
             <ImageGallery images={images} />
            
